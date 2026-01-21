@@ -10,7 +10,6 @@
 
 -- Setup
 local path = minetest.get_modpath("voltic_battery")
-tech = rawget(_G, "technic") or {}
 dofile(path.."/registry.lua") -- Add the "upgraded" battery register
 
 -- Activate tiers
