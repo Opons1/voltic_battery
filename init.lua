@@ -7,7 +7,7 @@
     capacity.
     4. Input and Output is 500 EUs faster
 ]]--
-
+tech = rawget(_G, "technic") or {}
 -- Setup
 local path = minetest.get_modpath("voltic_battery")
 dofile(path.."/registry.lua") -- Add the "upgraded" battery register
